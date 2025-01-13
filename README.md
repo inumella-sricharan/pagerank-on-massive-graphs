@@ -4,6 +4,6 @@
 
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br><br>
 
-$\text{Here} \beta \text{is the damping factor and P is the transition matrix}$<br><br>
+$\text{Here  } \beta \text{  is the damping factor and P is the transition matrix}$<br><br>
 
 $R_{t+1} = M R_{t}$

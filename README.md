@@ -5,13 +5,13 @@
 This project is about applying pagerank algorithm on a massive graph/network (in this case its a segment the wikipedia graph) and <br>
 optimize the memory and speed using sparse matrix multiplications.<br>
 
-## <ins>🌐 PageRank Equations:</ins> <br>
+## <ins>🌐 PageRank Algorithm:</ins> <br>
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br>
 
 $\text{Here  } \beta \text{  is the damping factor and P is the transition matrix. And M is the final markov matrix.}$ <br>
 $\text{And N is the total number of nodes in the graph}$ <br>
 
-$R_{t+1} = M R_{t}$ <br>
+$R_{t+1} = M R_{t} \text{    ---> until convergence}$ <br>
 
 ## <ins>🌀 Re-arranging the equation to reduce the computations:</ins> <br>
 

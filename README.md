@@ -21,7 +21,7 @@ $\text{We still have 'dead-end' nodes in   } P^{T} \text{   , i.e those nodes wi
 
 $\text{The sum of column values for these nodes is 0. But we need to enrich it such that sum of col = 1}$ <br>
 
-$R_{t+1} = \beta P^{T} R_t + R_t\[\{dead-end-nodes\}\]\times\beta\[1/N\]  + (1 - \beta) \[1/N\]_{N \times 1}$ <br>
+$R_{t+1} = \beta P^{T} R_t + R_t\[dead-end\]\times\beta\[1/N\]  + (1 - \beta) \[1/N\]_{N \times 1}$ <br>
 
-$R_{t+1} = \beta P^{T} R_t + \(r_{t}^{d1} \times\beta\[1/N\] + r_{t}^{d2} \times\beta\[1/N\]\ .... + r_{t}^{dk} \times\beta\[1/N\]\)+ (1 - \beta) \[1/N\]_{N \times 1}$ <br>
+$R_{t+1} = \beta P^{T} R_t + \(r_{t}^{d1} \times\beta\[1/N\]_{N \times 1} + r_{t}^{d2} \times\beta\[1/N\]_{N \times 1} .... + r_{t}^{dk} \times\beta\[1/N\]_{N \times 1}\)+ (1 - \beta) \[1/N\]_{N \times 1}$ <br>
 

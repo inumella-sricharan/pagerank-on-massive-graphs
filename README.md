@@ -1,17 +1,18 @@
 # pagerank-on-massive-graphs
  Ranking nodes in massive graph networks with pagerank algorithm by making use of sparse matrix operations.
 
-## <ins>👉 Intro </ins> <br>
+## <ins>👉 Intro:</ins> <br>
 This project is about applying pagerank algorithm on a massive graph/network (in this case its a segment the wikipedia graph) and <br>
 optimize the memory and speed using sparse matrix multiplications.<br>
 
+## <ins>🌐 PageRank Equations:</ins> <br>
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br>
 
 $\text{Here  } \beta \text{  is the damping factor and P is the transition matrix. And M is the final markov matrix.}$ <br>
 
 $R_{t+1} = M R_{t}$ <br>
 
-## <ins>🌀 Re-arranging the equation to reduce the computations</ins> <br>
+## <ins>🌀 Re-arranging the equation to reduce the computations:</ins> <br>
 
 $R_{t+1} = \[\beta P^{T} + (1 - \beta) \[1/N\]_{N \times N}\] R_t$ <br>
 

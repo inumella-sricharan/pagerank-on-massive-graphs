@@ -25,3 +25,5 @@ $R_{t+1} = \beta P^{T} R_t + R_t\[dead-end\]\times\beta\[1/N\]  + (1 - \beta) \[
 
 $R_{t+1} = \beta P^{T} R_t + \(r_{t}^{d1} \times\beta\[1/N\] + r_{t}^{d2} \times\beta\[1/N\] .... + r_{t}^{dk} \times\beta\[1/N\]\)+ (1 - \beta) \[1/N\]_{N \times 1}$ <br>
 
+$\text{ Where d1, d2, ... dk are dead-end nodes}$
+

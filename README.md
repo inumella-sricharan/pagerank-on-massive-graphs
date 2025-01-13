@@ -23,5 +23,5 @@ $\text{The sum of column values for these nodes is 0. But we need to enrich it s
 
 $R_{t+1} = \beta P^{T} R_t + R_t\[dead-end\]\times\beta\[1/N\]  + (1 - \beta) \[1/N\]_{N \times 1}$ <br>
 
-$R_{t+1} = \beta P^{T} R_t + \(r^{d1}_t\times\beta\[1/N\]\)  + (1 - \beta) \[1/N\]_{N \times 1}$ <br>
+$R_{t+1} = \beta P^{T} R_t + r^d1_t\times\beta\[1/N\]\)+ (1 - \beta) \[1/N\]_{N \times 1}$ <br>
 

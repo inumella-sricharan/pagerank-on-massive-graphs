@@ -9,6 +9,7 @@ optimize the memory and speed using sparse matrix multiplications.<br>
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br>
 
 $\text{Here  } \beta \text{  is the damping factor and P is the transition matrix. And M is the final markov matrix.}$ <br>
+$\text{And N is the total number of nodes in the graph}$ <br>
 
 $R_{t+1} = M R_{t}$ <br>
 

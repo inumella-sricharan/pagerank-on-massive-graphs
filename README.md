@@ -8,7 +8,7 @@ $\text{Here  } \beta \text{  is the damping factor and P is the transition matri
 
 $R_{t+1} = M R_{t}$ <br>
 
-Re-arranging the equation to reduce the computations <br>
+## <ins>🌀 Re-arranging the equation to reduce the computations</ins> <br>
 
 $R_{t+1} = \[\beta P^{T} + (1 - \beta) \[1/N\]_{N \times N}\] R_t$ <br>
 

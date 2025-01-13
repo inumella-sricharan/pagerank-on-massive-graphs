@@ -10,7 +10,7 @@ $R_{t+1} = M R_{t}$ <br>
 
 Re-arranging the equation to reduce the computations <br>
 
-$R_{t+1} = \beta P^{T} R_t + (1 - \beta) \[1/N\]_{N \times N} R_t$ <br>
+$R_{t+1} = \[\beta P^{T} R_t + (1 - \beta) \[1/N\]_{N \times N}\] R_t$ <br>
 
 
 $R_{t+1} = \beta P^{T} R_t + (1 - \beta) \[\frac{1}{N}\]_{N \times N} R_t$ <br>

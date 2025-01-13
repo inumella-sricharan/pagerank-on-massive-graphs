@@ -13,6 +13,6 @@ Re-arranging the equation to reduce the computations <br>
 $R_{t+1} = \[\beta P^{T} + (1 - \beta) \[1/N\]_{N \times N}\] R_t$ <br>
 
 
-$R_{t+1} = \beta P^{T} R_t + (1 - \beta) \[1/N\]_{N \times 1}\]$ <br>
+$R_{t+1} = \beta P^{T} R_t + (1 - \beta) \[1/N\]_{N \times 1}$ <br>
 
-$\text{since  } \sigma^{N}_{i=1} r_i = 1$ <br>
+$\text{since  } \sum^{N}_{i=1} r_i = 1$ <br>

@@ -1,6 +1,9 @@
 # pagerank-on-massive-graphs
  Ranking nodes in massive graph networks with pagerank algorithm by making use of sparse matrix operations.
 
+## <ins>👉 Intro </ins> <br>
+This project is about applying pagerank algorithm on a massive graph/network (in this case its a segment the wikipedia graph) and <br>
+optimize the memory and speed using sparse matrix multiplications.<br>
 
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br>
 

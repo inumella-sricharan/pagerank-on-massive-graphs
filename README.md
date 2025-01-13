@@ -2,4 +2,5 @@
  Ranking nodes in massive graph networks with pagerank algorithm by making use of sparse matrix operations.
 
 
-$R_t = \beta M + (1 - \beta)\[1/N\]_{N x N}$
+$M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$<br><br>
+$

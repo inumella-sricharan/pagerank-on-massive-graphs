@@ -11,6 +11,11 @@ $\lambda C_{i} = \sum_{\text{  j  } \epsilon \text{  neighbors of i}} C_{j}$ <br
 That is, the centrality of node i is directly proportional to the centrality of its neighbours. That is equivalent to writing<br><br>
 $A \times C = \lambda C$ where A is the adjacency matrix(with self loops removed) and C is the centrality vector.<br>
 
+### <ins>🎆 power iteration method:</ins><br>
+If our task is to find $A \times C = \lambda C$, then its about finding the eigen vector corresponding to the largest eigenvalue of A.<br>
+It can be found out through the power iteration method where we start with a random vector and repititively multiply it with A until convergence.<br><br>
+
+In our case the matrix A will be the markov matrix that we will form out of the transition matrix.<br>
 
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br>
 

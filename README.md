@@ -7,9 +7,9 @@ optimize the memory and speed using sparse matrix multiplications.<br>
 
 ## <ins>🌐 PageRank Algorithm:</ins> <br>
 If we pose the problem of calculating centrality / importance of a node as :<br> 
-$\lambda C_{i} = \sum_{\text{  j  } \epsilon \text{  neighbors of i}} C_{j}$<br><br>
-That is, the centrality of node i is directly proportional to the centrality of its neighbours. That is equivalent to writing<br>
-$A \times C = \lambda C$ where A is the adjacency matrix(with self loops removed) and C is the centrality vector.  
+$\lambda C_{i} = \sum_{\text{  j  } \epsilon \text{  neighbors of i}} C_{j}$ <br><br>
+That is, the centrality of node i is directly proportional to the centrality of its neighbours. That is equivalent to writing<br><br>
+$A \times C = \lambda C$ where A is the adjacency matrix(with self loops removed) and C is the centrality vector.<br>
 
 
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br>

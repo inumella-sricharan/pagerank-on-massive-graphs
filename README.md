@@ -11,9 +11,9 @@ $\lambda C_{i} = \sum_{\text{  j  } \epsilon \text{  neighbors of i}} C_{j}$ <br
 That is, the centrality of node i is directly proportional to the centrality of its neighbours. That is equivalent to writing<br><br>
 $A \times C = \lambda C$ where A is the adjacency matrix(with self loops removed) and C is the centrality vector.<br>
 
-### <ins>🎆 power iteration method:</ins><br>
+### <ins>🎆 Power Iteration method:</ins><br>
 If our task is to find $A \times C = \lambda C$, then its about finding the eigen vector corresponding to the largest eigenvalue of A.<br>
-It can be found out through the power iteration method where we start with a random vector and repititively multiply it with A until convergence.<br><br>
+It can be found out through the power iteration method where we start with a random vector and repititively multiply A with it until convergence.<br><br>
 
 In our case the matrix A will be the markov matrix that we will form out of the transition matrix.<br>
 
@@ -41,5 +41,6 @@ $R_{t+1} = \beta P^{T} R_t + R_t\[dead-end\]\times\beta\[1/N\]  + (1 - \beta) \[
 
 $R_{t+1} = \beta P^{T} R_t + \(r_{t}^{d1} \times\beta\[1/N\] + r_{t}^{d2} \times\beta\[1/N\] .... + r_{t}^{dk} \times\beta\[1/N\]\)+ (1 - \beta) \[1/N\]_{N \times 1}$ <br>
 
-$\text{ Where d1, d2, ... dk are dead-end nodes}$
+$\text{ Where d1, d2, ... dk are dead-end nodes}$ <br><br>
 
+Now for the final equation we can use sparse matrix operations to carry out the pagerank computation

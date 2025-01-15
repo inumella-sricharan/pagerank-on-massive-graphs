@@ -6,6 +6,8 @@ This project is about applying pagerank algorithm on a massive graph/network (in
 optimize the memory and speed using sparse matrix multiplications.<br>
 
 ## <ins>🌐 PageRank Algorithm:</ins> <br>
+If we pose the problem of calculating centrality / importance of a node as $ \lambda C_{i} = \sum_{j \epsilon neighbors of i} C_{j}$
+
 $M = \beta P^{T} + (1 - \beta)\[1/N\]_{N x N}$ <br>
 
 $\text{Here  } \beta \text{  is the damping factor and P is the transition matrix. And M is the final markov matrix.}$ <br>
